@@ -1,0 +1,114 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: rgba(193, 224, 218, 0.133);
+   
+    
+}
+.total{
+    display: flex;
+    flex-direction: column;
+
+}
+.menu{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+}
+h1{
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+  gap: 10px;
+    
+    
+}
+.deuxlettre{
+    color: rgba(235, 211, 26, 0.667);
+}
+.logo{
+    flex-grow: ;
+    height: 40PX;
+}
+.bare{
+    width: 300PX;
+}
+
+.bire{
+    list-style: none;
+    display: flex;
+    font-weight:bold ;
+    justify-content: space-between;
+}
+.enregistrement button{
+    background-color: rgb(255, 222, 60);
+    border-radius: 15px;
+    width: 70px;
+}
+.contenu{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+    
+    
+    
+}
+.adroit{
+    display: flex;
+    align-self: center;
+    width: 300px;
+    height: 200px;
+    
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+
+}
+
+.adroit h2{
+    font-size: small;
+}
+.adroit h3{
+    font-size: 30px;
+    flex-wrap: wrap;
+
+}.adroit P{
+    font-size: small;
+}
+.bouton button{
+    border-radius: 15PX;
+    background-color: rgb(244, 241, 51);
+    height: 30px;
+    width: 100PX;
+}
+.image{
+    display: flex;
+    
+    
+
+}
+.reseau { 
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+   
+   
+    gap: 20px;
+   
+
+}
+.reseaux li{
+    list-style: none;
+
+}
+.reseaux li img{
+    
+    height: 30px;
+    
+   
+}
